@@ -1,0 +1,25 @@
+subscription_system/
+├── manage.py
+├── subscription_system/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   └── asgi.py
+├── subscriptions/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── templates/
+│   │   └── subscriptions/
+│   │       └── subscription_list.html
+│   └── tasks.py
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .env
+└── .gitignore
